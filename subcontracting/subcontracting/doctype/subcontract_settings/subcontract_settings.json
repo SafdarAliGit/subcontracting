@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "creation": "2021-02-20 19:46:36.404562",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subcontract_expense_account",
+  "subcontract_services_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "subcontract_expense_account",
+   "fieldtype": "Link",
+   "label": "Subcontract Expense Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "subcontract_services_group",
+   "fieldtype": "Link",
+   "label": "Subcontract Services Group",
+   "options": "Item Group"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-02-20 19:46:57.457289",
+ "modified_by": "Administrator",
+ "module": "Subcontracting",
+ "name": "Subcontract Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
